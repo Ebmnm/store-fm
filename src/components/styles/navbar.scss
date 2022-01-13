@@ -1,0 +1,37 @@
+
+
+nav {
+    color:white;
+    height: 100px;
+    border-bottom: 3px solid white;
+    background-color: rgba(32, 29, 29, 0.993);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    @media (max-width:700px){
+        display: block;
+        cursor: pointer;
+    }
+}
+.cart {
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    cursor: pointer;
+    @media (max-width:700px){
+        display: none;
+    }
+
+    h2 {
+        margin: 0 20px;
+        font-size: 1em;
+    }
+    h2:hover{
+        color:#d87d4a;
+    }
+}
