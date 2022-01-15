@@ -1,0 +1,47 @@
+.block-two {
+    width: 80%;
+    margin: 5% auto;
+    background-image: url("../../assets/home/desktop/image-speaker-zx7.jpg");
+    height: 40vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+    @media (max-width:900px) {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 5%;
+        height: 60vh;
+        background-size: contain;
+        background-image: url("../../assets/home/tablet/image-speaker-zx7.jpg");
+    
+    }
+
+    @media (max-width: 450px) {
+        background-image: url("../../assets/home/mobile/image-speaker-zx7.jpg");
+    }
+    .block-two-text {
+       display: flex;
+       justify-content: center;
+       height: 80%;
+       flex-direction: column;
+       margin-left: 10%;
+     
+        h1{
+            margin-bottom: 1em;
+        }
+       button {
+           width: fit-content;
+           padding: 1em 1.5em;
+           background-color: transparent;
+           white-space: nowrap;
+           font-size: 1.1em;
+           cursor: pointer;
+       }
+
+       button:hover {
+           background-color: black;
+           color:white;
+       }
+    }
+
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles/speakerblock.scss"
-import ZX9 from "../assets//home/desktop/image-speaker-zx9.png"
+import ZX9 from "../assets/home/desktop/image-speaker-zx9.png"
 export default function Speakerblock() {
     return (
         <div className='speaker-block'>
