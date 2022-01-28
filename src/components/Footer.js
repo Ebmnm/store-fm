@@ -1,5 +1,7 @@
 import React from 'react'
 import "./styles/footer.scss"
+import facebook from "../assets/facebook.png"
+import insta from "../assets/instagram.png"
 export default function Footer() {
     return (
         <div className='footer'>
@@ -12,7 +14,8 @@ export default function Footer() {
                 Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open 7 days a week.
                 </p>
                 <div className='icons'>
-                    icon
+                   <div className='img-container'><img src={facebook} alt="social" /></div>
+                   <div className='img-container insta'><img src={insta} alt="social" /></div>
                 </div>
                 <p>Copyright 2022. All Rights Reserved</p>
             </div>

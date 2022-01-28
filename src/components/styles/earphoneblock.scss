@@ -3,7 +3,7 @@
 .block-three {
     width: 80%;
     margin: 5% auto;
-background-color: #f1f1f1;
+background-color: #b4d9ee;
     height: 35vh;
     background-size: contain;
     background-repeat: no-repeat;
@@ -44,7 +44,8 @@ background-color: #f1f1f1;
     button {
         width: fit-content;
         padding: 1em 1.5em;
-        background-color: transparent;
+        color: white;
+        background-color: black;
         white-space: nowrap;
         font-size: 1.1em;
         cursor: pointer;
@@ -53,5 +54,6 @@ background-color: #f1f1f1;
     button:hover {
         background-color: black;
         color:white;
+        background-color: rgb(99, 99, 99);
     }
 }
