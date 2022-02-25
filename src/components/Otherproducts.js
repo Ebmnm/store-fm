@@ -21,7 +21,7 @@ export default function Otherproducts({productData, currentProduct, setCurrentPr
             return   <div className='other-card'  key={product.name}>
                 <div className='img-div'>    <img alt='product' src={product.images[0]} />    </div>
               <h4>  {product.name}  </h4>
-              <Link onClick={() => setCurrentProduct(product)} to={`/product/${product.name}`} className='button'>See Product</Link>
+              <Link onClick={() => setCurrentProduct(product)} to={`/store-fm/product/${product.name}`} className='button'>See Product</Link>
               </div>
         }
        else{

@@ -11,19 +11,19 @@ export default function Navbar() {
             <h1>Audiophile</h1>
 
             <div className='nav-links'>
-                <Link to={"/"}className='link'>Home</Link>
-                <Link to={"/"}className='link'>Headphones</Link>
-                <Link to={"/"}className='link'>Speakers</Link>
-                <Link to={"/"}className='link'>Earphones</Link>
+                <Link to={"/store-fm"}className='link'>Home</Link>
+                <Link to={"/store-fm"}className='link'>Headphones</Link>
+                <Link to={"/store-fm"}className='link'>Speakers</Link>
+                <Link to={"/store-fm"}className='link'>Earphones</Link>
             </div>
 
             <div className= {mobileNav ? "mobile-popup" : "hide"}>
                 <div className='mobile-links'>
                     <h2 onClick={() => setMobileNav(!mobileNav)}>X</h2>
-                    <Link to={"/"}className='link'>Home</Link>
-                    <Link to={"/"}className='link'>Headphones</Link>
-                    <Link to={"/"}className='link'>Speakers</Link>
-                    <Link to={"/"}className='link'>Earphones</Link>
+                    <Link to={"/store-fm"}className='link'>Home</Link>
+                    <Link to={"/store-fm"}className='link'>Headphones</Link>
+                    <Link to={"/store-fm"}className='link'>Speakers</Link>
+                    <Link to={"/store-fm"}className='link'>Earphones</Link>
                 </div>
             </div>
 

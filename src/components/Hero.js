@@ -14,7 +14,7 @@ export default function Hero({setCurrentProduct, productData, currentProduct}) {
             HEADPHONES</h1>
 
             <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast. </p>
-            <Link className='button' to={"product/XX99markII"} onClick={changeProduct}> See Product</Link>
+            <Link className='button' to={"/store-fm/product/XX99markII"} onClick={changeProduct}> See Product</Link>
            </div>
         </div>
     )

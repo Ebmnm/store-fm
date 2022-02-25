@@ -13,7 +13,7 @@ export default function Speakerblock({setCurrentProduct, productData, currentPro
             <div className='speaker-block-text'>
                 <h1>ZX9 Speaker</h1>
                 <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
-                <Link to={"product/ZX9%Speaker"}className='button' onClick={changeProduct}>See Product</Link>
+                <Link to={"/store-fm/product/ZX9%Speaker"}className='button' onClick={changeProduct}>See Product</Link>
             </div>
         </div>
     )

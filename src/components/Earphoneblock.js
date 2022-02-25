@@ -13,7 +13,7 @@ export default function Earphoneblock({setCurrentProduct, productData, currentPr
 
            <div className='block-three-text'>
                <h1>XY1 Earphones</h1>
-               <Link className='button' to={"/product/xy1-earphones"} onClick={changeProduct}>See Product</Link>
+               <Link className='button' to={"/store-fm/product/xy1-earphones"} onClick={changeProduct}>See Product</Link>
            </div>
         </div>
     )

@@ -9,7 +9,7 @@ export default function speakerblocktwo({setCurrentProduct, productData, current
         <div className='block-two'>
             <div className='block-two-text'>
                 <h1>ZX7 Speaker</h1>
-                <Link className='button' onClick={changeProduct} to={"/product/zx7-speaker"}>See Product</Link>
+                <Link className='button' onClick={changeProduct} to={"/store-fm/product/zx7-speaker"}>See Product</Link>
             </div>
 
             <div className='img-container'>

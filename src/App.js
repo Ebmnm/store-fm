@@ -7,7 +7,7 @@ import ProductPage from "./views/ProductPage";
 
 function App() {
 
-  //todo:  Link to shopify checkout  / find other products / shopping cart functionality / side photo? /  cart 
+  //todo: deploy issues /  Link to shopify checkout  / find other products / shopping cart functionality / side photo? /  cart 
 
   const [productData, setProductData] = useState([
     {productOne: {
