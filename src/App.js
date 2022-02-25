@@ -76,8 +76,8 @@ useEffect(() => {
      <Router>
        <Routes>
          
-            <Route path="/" exact element={<Home currentProduct={currentProduct} setCurrentProduct={setCurrentProduct} productData={productData} />} />
-            <Route path="/product/:id"  element={ <ProductPage currentProduct={currentProduct} productData={productData} setCurrentProduct={setCurrentProduct}/>} />
+            <Route path="/store-fm" exact element={<Home currentProduct={currentProduct} setCurrentProduct={setCurrentProduct} productData={productData} />} />
+            <Route path="/store-fm/product/:id"  element={ <ProductPage currentProduct={currentProduct} productData={productData} setCurrentProduct={setCurrentProduct}/>} />
          
        </Routes>
      </Router>
