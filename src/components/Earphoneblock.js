@@ -1,6 +1,10 @@
 import React from 'react'
  import "./styles/earphoneblock.scss"
-export default function Earphoneblock() {
+ import { Link } from 'react-router-dom'
+export default function Earphoneblock({setCurrentProduct, productData, currentProduct}) {
+    function changeProduct() {
+        setCurrentProduct(productData[3].productFour)
+    }
     return (
         <div className='block-three'>
            <div className='img'>
@@ -9,7 +13,7 @@ export default function Earphoneblock() {
 
            <div className='block-three-text'>
                <h1>XY1 Earphones</h1>
-               <button>See Product</button>
+               <Link className='button' to={"/product/xy1-earphones"} onClick={changeProduct}>See Product</Link>
            </div>
         </div>
     )

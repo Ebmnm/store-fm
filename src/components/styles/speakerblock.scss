@@ -50,18 +50,19 @@
         p {
             margin-bottom: 20%;
         }
-        button{
+        .button{
             padding:20px;
             border: none;
             color: white;
             background-color: black;
             font-size: 1.2em ;
             cursor: pointer;
+            text-decoration: none;
             @media (max-width:700px){
                 margin: auto;
             }  
         }
-        button:hover {
+        .button:hover {
             background-color: rgb(99, 99, 99);
         }
 

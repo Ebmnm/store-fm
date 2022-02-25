@@ -6,14 +6,14 @@ import Speakerblocktwo from '../components/speakerblocktwo'
 import Earphoneblock from '../components/Earphoneblock'
 import Aboutblock from '../components/Aboutblock'
 import Footer from '../components/Footer'
-export default function Home() {
+export default function Home({setCurrentProduct, productData, currentProduct}) {
     return (
         <div>
             <Navbar/>
-            <Hero/>
-            <Speakerblock/>
-            <Speakerblocktwo />
-            <Earphoneblock />
+            <Hero currentProduct={currentProduct} productData={productData} setCurrentProduct={setCurrentProduct}/>
+            <Speakerblock currentProduct={currentProduct} productData={productData} setCurrentProduct={setCurrentProduct} />
+            <Speakerblocktwo currentProduct={currentProduct} productData={productData} setCurrentProduct={setCurrentProduct}  />
+            <Earphoneblock currentProduct={currentProduct} productData={productData} setCurrentProduct={setCurrentProduct} />
             <Aboutblock/>
             <Footer/>
         </div>
