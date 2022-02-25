@@ -72,7 +72,7 @@ useEffect(() => {
 }, [currentProduct]); 
 
   return (
-   
+    
      <Router>
        <Routes>
          
@@ -82,7 +82,7 @@ useEffect(() => {
        </Routes>
      </Router>
 
-      
+
     
        
   );
