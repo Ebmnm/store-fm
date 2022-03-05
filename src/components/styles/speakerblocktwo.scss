@@ -1,6 +1,6 @@
 .block-two {
     width: 80%;
-    margin: 5% auto;
+    margin: 0 auto;
     background-image: url("../../assets/home/desktop/image-speaker-zx7.jpg");
     height: 40vh;
     background-size: contain;
@@ -9,8 +9,8 @@
     @media (max-width:900px) {
         margin: 0;
         width: 100%;
-        margin-bottom: 5%;
-        height: 60vh;
+     
+        height: 58vh;
         background-size: contain;
         background-image: url("../../assets/home/tablet/image-speaker-zx7.jpg");
     

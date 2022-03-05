@@ -28,7 +28,7 @@ export default function ItemDetail({productData, currentProduct}) {
      <section className='img-section'>
       <div className="main-img-div">
              
-                <img onClick={imagePop} className={`main-pic`} alt="" src={mainPic}/>
+                <img /* onClick={imagePop} */ className={`main-pic`} alt="" src={mainPic}/>
          
             <span className={`img-popup ${imageModel ? "img-active" : ""}`}>
             <img onClick={imagePop} className={` ${imageModel ? "img-active-resize" : ""}`} alt="" src={mainPic}/>
@@ -36,9 +36,9 @@ export default function ItemDetail({productData, currentProduct}) {
             </div>
             <div className="bottom-pics">
             <div className="pics-container">
-               <img onClick={changePic} src={currentProduct.images[0]} alt=""/>
-               <img onClick={changePic} src={currentProduct.images[1]} alt=""/>
-               <img onClick={changePic} src={currentProduct.images[2]} alt=""/>
+               <img onClick={changePic} onMouseOver={changePic} src={currentProduct.images[0]} alt=""/>
+               <img onClick={changePic} onMouseOver={changePic} src={currentProduct.images[1]} alt=""/>
+               <img onClick={changePic} onMouseOver={changePic} src={currentProduct.images[2]} alt=""/>
     
             </div>
             </div>

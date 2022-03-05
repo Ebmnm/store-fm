@@ -20,7 +20,7 @@ border-radius: 15px;
 margin: 0 .8em;
 }
 .pics-container img:hover{
-    cursor: pointer;
+    cursor: zoom-in;
 }
 .pics-container{
     margin-top: 3em;
@@ -78,7 +78,6 @@ grid-row-gap: 10px;
         object-fit: cover;
         height: 95%;
         border-radius: 15px;
-        cursor: zoom-in;
         max-width:455px ;
         max-height: 455px;
         margin-left: 2em;
@@ -88,8 +87,8 @@ grid-row-gap: 10px;
             margin-left: 0;
         }
         @media (max-width:650px) {
-            max-width: 250px;
-            max-height: 250px;;
+            max-width: 280px;
+            max-height: 280px;;
             
         }
         }
@@ -186,12 +185,7 @@ margin-bottom: 5%;
     @media(max-width:650px) {
         flex-direction: column;
     }
-
-  
 }
-
-
-
 
     .quantity {
         display: flex;

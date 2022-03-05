@@ -7,7 +7,8 @@ import ProductPage from "./views/ProductPage";
 
 function App() {
 
-  //todo: deploy issues - photos from state not showing (now locally they arent working... since the url change?) /  Link to shopify checkout  / find other products / shopping cart functionality / side photo? /  cart 
+  //todo: deploy issues - photos from state not showing (local works gh does not) /  Link to shopify checkout  
+  // find other products / shopping cart functionality / side photo? /  cart 
 
   const [productData, setProductData] = useState([
     {productOne: {
